@@ -1,0 +1,41 @@
+body
+{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+p
+{
+    font-size: 22px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#showSketch
+{
+    float: right;
+    margin-right: 20px;
+}
+
+canvas
+{
+    border:5px solid rebeccapurple;
+    border-radius: 20px;
+    margin-top: 30px;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1{
+    from{box-shadow: 1px 1px 38px orangered;}
+    to{box-shadow: 1px 1px 38px rebeccapurple;}
+}
+
+h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+    margin-left: 20px;
+}
+
